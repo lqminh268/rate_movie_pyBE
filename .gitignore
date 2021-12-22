@@ -1,0 +1,17 @@
+*.sqlite3
+/static
+/media
+/fssManagement/local_settings.py
+*.pyc
+/.idea
+.vscode
+.DS_Store
+__pycache__/
+
+/supervisor_log.log
+
+*/migrations/*
+!**/migrations
+!**/migrations/__init__.py
+/logs
+*.txt
